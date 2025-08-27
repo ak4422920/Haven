@@ -13,4 +13,4 @@ ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "NullZoro") # Without @
 IS_FSUB = bool(os.environ.get("FSUB", True))
 AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1001785093771 -1002827553840").split()))
 DATABASE_CHANNEL_LOG = int(os.getenv("DATABASE_CHANNEL_LOG", ""))
-FREE_VIDEO_DURATION = int(os.getenv("FREE_VIDEO_DURATION", "270"))
+FREE_VIDEO_DURATION = int(os.getenv("FREE_VIDEO_DURATION", "600"))
